@@ -1,0 +1,4 @@
+﻿  Problem-40.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-40\Problem-40.cpp(21,15): warning C4305: '*=': truncation from 'double' to 'float'
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-40\Problem-40.cpp(22,15): warning C4305: '*=': truncation from 'double' to 'float'
+  Problem-40.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-40\x64\Debug\Problem-40.exe

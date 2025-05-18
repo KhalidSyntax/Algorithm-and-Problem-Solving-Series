@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming Advices\\MyProjects\\Problems-Solving-Level-1\\Problem-40\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E74B1B8B-9E07-437F-908B-31279F2FFFC4}|Problem-40.vcxproj|D:\\Programming Advices\\MyProjects\\Problems-Solving-Level-1\\Problem-40\\Problem-40.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E74B1B8B-9E07-437F-908B-31279F2FFFC4}|Problem-40.vcxproj|solutionrelative:Problem-40.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem-40.cpp",
+              "DocumentMoniker": "D:\\Programming Advices\\MyProjects\\Problems-Solving-Level-1\\Problem-40\\Problem-40.cpp",
+              "RelativeDocumentMoniker": "Problem-40.cpp",
+              "ToolTip": "D:\\Programming Advices\\MyProjects\\Problems-Solving-Level-1\\Problem-40\\Problem-40.cpp",
+              "RelativeToolTip": "Problem-40.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-15T18:05:48.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

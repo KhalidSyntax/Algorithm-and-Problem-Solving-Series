@@ -1,0 +1,4 @@
+﻿  Problem-37.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-37\Problem-37.cpp(24,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-37\Problem-37.cpp(34,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Problem-37.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-37\x64\Debug\Problem-37.exe

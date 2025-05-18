@@ -1,0 +1,6 @@
+﻿  Problem-42.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-42\Problem-42.cpp(28,47): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-42\Problem-42.cpp(29,49): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-42\Problem-42.cpp(30,51): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-42\Problem-42.cpp(31,51): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Problem-42.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-42\x64\Debug\Problem-42.exe

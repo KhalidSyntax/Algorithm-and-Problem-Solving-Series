@@ -1,0 +1,4 @@
+﻿  Problem-47.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-47\Problem-47.cpp(25,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-47\Problem-47.cpp(26,27): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Problem-47.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-47\x64\Debug\Problem-47.exe

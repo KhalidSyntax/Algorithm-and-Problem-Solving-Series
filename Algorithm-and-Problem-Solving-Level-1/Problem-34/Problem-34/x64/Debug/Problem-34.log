@@ -1,0 +1,7 @@
+﻿  Problem-34.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-34\Problem-34.cpp(18,10): warning C4305: 'return': truncation from 'double' to 'float'
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-34\Problem-34.cpp(20,10): warning C4305: 'return': truncation from 'double' to 'float'
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-34\Problem-34.cpp(22,10): warning C4305: 'return': truncation from 'double' to 'float'
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-34\Problem-34.cpp(24,10): warning C4305: 'return': truncation from 'double' to 'float'
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-34\Problem-34.cpp(37,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Problem-34.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-34\x64\Debug\Problem-34.exe

@@ -1,0 +1,3 @@
+﻿  Problem-11.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-11\Problem-11.cpp(54,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Problem-11.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-11\x64\Debug\Problem-11.exe

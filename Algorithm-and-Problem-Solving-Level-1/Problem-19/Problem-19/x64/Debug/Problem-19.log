@@ -1,0 +1,4 @@
+﻿  Problem-19.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-19\Problem-19.cpp(17,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-19\Problem-19.cpp(18,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Problem-19.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-19\x64\Debug\Problem-19.exe

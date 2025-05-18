@@ -1,0 +1,4 @@
+﻿  Problem-38.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-38\Problem-38.cpp(23,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-38\Problem-38.cpp(51,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Problem-38.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-38\x64\Debug\Problem-38.exe

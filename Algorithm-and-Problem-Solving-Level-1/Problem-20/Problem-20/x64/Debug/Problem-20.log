@@ -1,0 +1,5 @@
+﻿  Problem-20.cpp
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-20\Problem-20.cpp(17,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-20\Problem-20.cpp(18,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-20\Problem-20.cpp(29,8): warning C4101: 'Num1': unreferenced local variable
+  Problem-20.vcxproj -> D:\Programming Advices\MyProjects\Problems-Solving-Level-1\Problem-20\x64\Debug\Problem-20.exe
