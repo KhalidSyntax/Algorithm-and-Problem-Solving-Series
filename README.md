@@ -5,7 +5,7 @@ It is part of a structured course focused on developing logical thinking, clean 
 
 ---
 
-## 📘 Level 1 – Basics & Logic Building
+## 📘 Level 1 – Basics
 
 ### 🔍 Summary
 
@@ -23,20 +23,20 @@ Each `.cpp` file solves a specific problem and is named accordingly (e.g., `Prob
 
 ---
 
-## 📗 Level 2 – Advanced Problem Solving
+## 📗 Level 2 – Numbers and Arrays
 
 ### 🔍 Summary
 
-- Builds upon Level 1 with more advanced algorithmic challenges.
+- Builds upon Level 1 with new exercises focused on numbers and arrays.
 - Emphasizes the use of **modular functions**, **enumerations**, and **arrays**.
 - Covers critical topics:
-  - Perfect numbers
-  - Palindromes
-  - Digit frequency
-  - Reversing numbers
-  - Sum/average/min/max of arrays
-  - Prime number operations
-  - Random key/password generation
+  - Perfect numbers  
+  - Palindromes  
+  - Digit frequency  
+  - Reversing numbers  
+  - Sum/average/min/max of arrays  
+  - Prime number operations  
+  - Random key/password generation  
   - Array copying/shuffling
 - Introduces real-world patterns and simulations like encryption and password guessing.
 - Aims to enhance **efficiency**, **clarity**, and **code reusability**.
