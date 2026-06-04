@@ -18,6 +18,9 @@ public:
 private:
     Node* Head = NULL;
 
+protected:
+    int _Size = 0;
+
 public:
 
     Node* Find(T Value)
@@ -47,6 +50,7 @@ public:
             Head->Prev = NewNode;
 
         Head = NewNode;
+        _Size++;
     }
 
     void InsertAfter(Node* Current, T Value)
@@ -67,6 +71,7 @@ public:
             Current->Next->Prev = NewNode;
 
         Current->Next = NewNode;
+        _Size++;
     }
 
     void InsertAtEnd(T Value)
@@ -90,6 +95,7 @@ public:
             NewNode->Prev = Current;
             Current->Next = NewNode;
         }
+        _Size++;
     }
 
     void DeleteNode(Node*& NodeToDelete)
@@ -111,6 +117,7 @@ public:
 
         delete NodeToDelete;
         NodeToDelete = NULL;
+        _Size--;
     }
 
     void DeleteFirstNode()
@@ -128,6 +135,7 @@ public:
             Head->Prev = NULL;
 
         delete FirstNode;
+        _Size--;
     }
 
     void DeleteLastNode()
@@ -155,6 +163,7 @@ public:
         Current->Next = NULL;
         delete Temp;
         Temp = NULL;
+        _Size--;
     }
 
     void PrintNodeDetails(Node* Node)
@@ -203,5 +212,10 @@ public:
             Current = Current->Next;
         }
         cout << " NULL" << endl;
+    }
+
+    int Size()
+    {
+        return _Size;
     }
 };
