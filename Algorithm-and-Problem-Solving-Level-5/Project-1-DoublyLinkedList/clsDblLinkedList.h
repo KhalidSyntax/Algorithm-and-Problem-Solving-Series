@@ -41,7 +41,7 @@ public:
     void InsertAtBeginning(T Value)
     {
         Node* NewNode = new Node();
-
+        
         NewNode->Prev = NULL;
         NewNode->Data = Value;
         NewNode->Next = Head;
@@ -218,5 +218,10 @@ public:
     int Size()
     {
         return _Size;
+    }
+
+    bool IsEmpty()
+    {
+        return (_Size == 0 ? true : false);
     }
 };
