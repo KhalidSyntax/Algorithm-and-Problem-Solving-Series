@@ -16,10 +16,9 @@ int main()
     cout << "\nStack List:\n";
     MyStack.Print();
 
-    MyStack.Reverse();
-    cout << "\nStack List After Reverse:\n";
+    MyStack.UpdateItem(2, 300);
+    cout << "\nStack List After Updating Item (2) To 300:\n";
     MyStack.Print();
-
 
     system("pause>0");
     return 0;
