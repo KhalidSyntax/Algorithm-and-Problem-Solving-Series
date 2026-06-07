@@ -19,6 +19,12 @@ public:
 
 	void Print()
 	{
+		if (Size() == 0)
+		{
+			cout << "\nThe Queue List Is Empty.\n";
+			return;
+		}
+
 		cout << "Front --> ";
 		for (int i = 0; i < _MyList.Size(); i++)
 		{
@@ -80,5 +86,10 @@ public:
 	void InsertAtBack(T NewValue)
 	{
 		_MyList.InsertAtEnd(NewValue);
+	}
+
+	void Clear()
+	{
+		_MyList.Clear();
 	}
 };

@@ -16,9 +16,9 @@ int main()
     cout << "\nQueue List:\n";
     MyQueue.Print();
 
-    MyQueue.InsertAtBack(60);
+    MyQueue.Clear();
 
-    cout << "\nQueue List After Inserting 60 At Back:\n";
+    cout << "\nQueue List After Clear():\n";
     MyQueue.Print();
 
     system("pause>0");
