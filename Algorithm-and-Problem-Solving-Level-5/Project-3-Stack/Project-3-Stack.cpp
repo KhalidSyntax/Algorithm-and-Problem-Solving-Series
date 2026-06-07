@@ -15,5 +15,16 @@ int main()
     
     cout << "\nStack List:\n";
     MyStack.Print();
+
+    cout << "\nStack Size  : " << MyStack.Size() << endl;
+    cout << "\nStack Top   : " << MyStack.Top() << endl;
+    cout << "\nStack Bottom: " << MyStack.Bottom() << endl;
+
+    MyStack.Pop();
+    cout << "\nStack List After Pop:\n";
+    MyStack.Print();
+
+    system("pause>0");
+    return 0;
 }
 
