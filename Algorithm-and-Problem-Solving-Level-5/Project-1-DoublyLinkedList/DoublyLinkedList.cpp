@@ -19,7 +19,13 @@ int main()
     cout << "\nDetails:\n";
     MydblLinkedList.PrintListDetails();
 
-    cout << "\n\nItem (2) Value Is: " << MydblLinkedList.GetItem(6) << endl;
+    MydblLinkedList.UpdateItem(2, 99);
+
+    cout << "\nLinked List Content After Updating Item (2):\n";
+    MydblLinkedList.PrintList();
+
+    cout << "\nDetails:\n";
+    MydblLinkedList.PrintListDetails();
 
     system("pause>0");
     return 0;
