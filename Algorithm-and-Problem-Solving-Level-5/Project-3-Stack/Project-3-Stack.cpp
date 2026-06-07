@@ -16,8 +16,8 @@ int main()
     cout << "\nStack List:\n";
     MyStack.Print();
 
-    MyStack.InsertAtFront(99);
-    cout << "\nStack List After Insert At Top:\n";
+    MyStack.InsertAtBack(60);
+    cout << "\nStack List After Insert At Bottom:\n";
     MyStack.Print();
 
     system("pause>0");
