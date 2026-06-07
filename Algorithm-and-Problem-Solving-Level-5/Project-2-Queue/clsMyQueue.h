@@ -76,4 +76,9 @@ public:
 	{
 		_MyList.InsertAtBeginning(NewValue);
 	}
+
+	void InsertAtBack(T NewValue)
+	{
+		_MyList.InsertAtEnd(NewValue);
+	}
 };
