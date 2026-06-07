@@ -61,4 +61,9 @@ public:
 	{
 		_MyList.Reverse();
 	}
+
+	void UpdateItem(int Index, T NewValue)
+	{
+		_MyList.UpdateItem(Index, NewValue);
+	}
 };

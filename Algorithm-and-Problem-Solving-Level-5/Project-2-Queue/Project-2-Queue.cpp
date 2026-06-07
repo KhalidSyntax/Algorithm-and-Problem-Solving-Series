@@ -16,9 +16,9 @@ int main()
     cout << "\nQueue List:\n";
     MyQueue.Print();
 
-    MyQueue.Reverse();
+    MyQueue.UpdateItem(2, 300);
 
-    cout << "\nQueue List After Reverse:\n";
+    cout << "\nQueue List After Updating Item (2) 300:\n";
     MyQueue.Print();
 
     system("pause>0");
