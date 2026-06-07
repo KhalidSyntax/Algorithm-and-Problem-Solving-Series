@@ -249,4 +249,20 @@ public:
         if (Temp != nullptr)
             Head = Temp->Prev;
     }
+
+    Node* GetNode(int Index)
+    {
+        if (Index > _Size - 1 || Index < 0)
+            return NULL;
+
+        Node* Current = Head;
+        short Counter = 0;
+
+        while (Counter != Index)
+        {
+            Current = Current->Next;
+            Counter++;
+        }
+        return Current;
+    }
 };
