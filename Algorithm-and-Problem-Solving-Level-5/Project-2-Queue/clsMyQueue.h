@@ -32,6 +32,11 @@ public:
 		return _MyList.Size();
 	}
 
+	bool IsEmpty()
+	{
+		return _MyList.IsEmpty();
+	}
+
 	T front()
 	{
 		return _MyList.GetItem(0);
@@ -45,5 +50,10 @@ public:
 	void Pop()
 	{
 		_MyList.DeleteFirstNode();
+	}
+
+	T GetItem(int Index)
+	{
+		return _MyList.GetItem(Index);
 	}
 };

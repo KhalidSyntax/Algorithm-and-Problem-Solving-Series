@@ -16,15 +16,7 @@ int main()
     cout << "\nQueue List:\n";
     MyQueue.Print();
 
-    cout << "\nQueue Size : " << MyQueue.Size();
-    cout << "\nQueue Front: " << MyQueue.front();
-    cout << "\nQueue Back : " << MyQueue.back();
-
-    MyQueue.Pop();
-    cout << "\n\nQueue After Pop:\n";
-
-    cout << "\nQueue List:\n";
-    MyQueue.Print();
+    cout << "\nItem (2) : " << MyQueue.GetItem(2);
 
     system("pause>0");
     return 0;
