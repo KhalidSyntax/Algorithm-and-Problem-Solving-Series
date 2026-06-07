@@ -16,7 +16,10 @@ int main()
     cout << "\nStack List:\n";
     MyStack.Print();
 
-    cout << "\nItem (2): " << MyStack.GetItem(2) << endl;;
+    MyStack.Reverse();
+    cout << "\nStack List After Reverse:\n";
+    MyStack.Print();
+
 
     system("pause>0");
     return 0;
