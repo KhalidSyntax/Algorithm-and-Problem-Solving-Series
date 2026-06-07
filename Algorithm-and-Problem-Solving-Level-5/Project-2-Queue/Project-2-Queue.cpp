@@ -16,7 +16,10 @@ int main()
     cout << "\nQueue List:\n";
     MyQueue.Print();
 
-    cout << "\nItem (2) : " << MyQueue.GetItem(2);
+    MyQueue.Reverse();
+
+    cout << "\nQueue List After Reverse:\n";
+    MyQueue.Print();
 
     system("pause>0");
     return 0;
