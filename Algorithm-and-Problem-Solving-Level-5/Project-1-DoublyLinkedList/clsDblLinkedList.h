@@ -265,4 +265,13 @@ public:
         }
         return Current;
     }
+
+    T GetItem(int Index)
+    {
+        Node* ItemNode  = GetNode(Index);
+        if (ItemNode == NULL)
+            return T();
+        else
+            return ItemNode->Data;
+    }
 };
