@@ -19,15 +19,13 @@ int main()
     cout << "\nDetails:\n";
     MydblLinkedList.PrintListDetails();
 
-    cout << "\nNumber of items in the linked list = " << MydblLinkedList.Size();
+    MydblLinkedList.Reverse();
 
-    cout << "\nExecuting .Clear()";
-    MydblLinkedList.Clear();
-
-    cout << "\n\nLinked List Content:\n";
+    cout << "\n\nLinked List Content After Reverse:\n";
     MydblLinkedList.PrintList();
 
-    cout << "\nNumber of items in the linked list = " << MydblLinkedList.Size();
+    cout << "\nDetails:\n";
+    MydblLinkedList.PrintListDetails();
 
     system("pause>0");
     return 0;
