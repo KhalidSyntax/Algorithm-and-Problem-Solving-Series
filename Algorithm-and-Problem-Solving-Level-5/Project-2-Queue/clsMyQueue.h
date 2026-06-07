@@ -1,1 +1,49 @@
 #pragma once
+#include <iostream>
+#include "clsDblLinkedList.h"
+
+using namespace std;
+
+template <class T>
+class clsMyQueue
+{
+protected:
+	clsDblLinkedList <T> _MyList;
+
+public:
+
+	void Push(T Value)
+	{
+		_MyList.InsertAtEnd(Value);
+	}
+
+	void Print()
+	{
+		cout << "Front --> ";
+		for (int i = 0; i < _MyList.Size(); i++)
+		{
+			cout << _MyList.GetItem(i) << " --> ";
+		}
+		cout << "Rear\n";
+	}
+
+	int Size()
+	{
+		return _MyList.Size();
+	}
+
+	T front()
+	{
+		return _MyList.GetItem(0);
+	}
+
+	T back()
+	{
+		return _MyList.GetItem(_MyList.Size() - 1);
+	}
+
+	void Pop()
+	{
+		_MyList.DeleteFirstNode();
+	}
+};

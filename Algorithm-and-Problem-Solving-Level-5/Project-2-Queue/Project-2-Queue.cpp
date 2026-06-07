@@ -1,47 +1,31 @@
 #include <iostream>
 #include "clsMyQueue.h";
-#include "clsDblLinkedList.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    clsMyQueue <int> MyQueue;
 
+    MyQueue.Push(10);
+    MyQueue.Push(20);
+    MyQueue.Push(30);
+    MyQueue.Push(40);
+    MyQueue.Push(50);
 
-    //------------------------------------
-    //------------------------------------
+    cout << "\nQueue List:\n";
+    MyQueue.Print();
 
-    clsDblLinkedList<int> MydblLinkedList;
+    cout << "\nQueue Size : " << MyQueue.Size();
+    cout << "\nQueue Front: " << MyQueue.front();
+    cout << "\nQueue Back : " << MyQueue.back();
 
-    MydblLinkedList.InsertAtBeginning(50);
-    MydblLinkedList.InsertAtBeginning(40);
-    MydblLinkedList.InsertAtBeginning(30);
-    MydblLinkedList.InsertAtBeginning(20);
-    MydblLinkedList.InsertAtBeginning(10);
+    MyQueue.Pop();
+    cout << "\n\nQueue After Pop:\n";
 
-    cout << "\nLinked List Content:\n";
-    MydblLinkedList.PrintList();
-
-    cout << "\nDetails:\n";
-    MydblLinkedList.PrintListDetails();
-
-    MydblLinkedList.InsertAfter(2, 700);
-
-    cout << "\nLinked List Content After Insert By Index (2):\n";
-    MydblLinkedList.PrintList();
-
-    cout << "\nDetails:\n";
-    MydblLinkedList.PrintListDetails();
+    cout << "\nQueue List:\n";
+    MyQueue.Print();
 
     system("pause>0");
     return 0;
-
-
-
-
-
-
-
-
 }
