@@ -16,8 +16,8 @@ int main()
     cout << "\nStack List:\n";
     MyStack.Print();
 
-    MyStack.UpdateItem(2, 300);
-    cout << "\nStack List After Updating Item (2) To 300:\n";
+    MyStack.InsertAfter(1, 99);
+    cout << "\nStack List After Insert After Item (1):\n";
     MyStack.Print();
 
     system("pause>0");
