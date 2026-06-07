@@ -16,9 +16,9 @@ int main()
     cout << "\nQueue List:\n";
     MyQueue.Print();
 
-    MyQueue.InsertAfter(4, 99);
+    MyQueue.InsertAtFront(250);
 
-    cout << "\nQueue List After Inserting 99 After Item (4):\n";
+    cout << "\nQueue List After Inserting 250 At Front:\n";
     MyQueue.Print();
 
     system("pause>0");

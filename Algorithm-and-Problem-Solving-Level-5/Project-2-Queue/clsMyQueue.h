@@ -71,4 +71,9 @@ public:
 	{
 		_MyList.InsertAfter(Index, NewValue);
 	}
+
+	void InsertAtFront(T NewValue)
+	{
+		_MyList.InsertAtBeginning(NewValue);
+	}
 };
