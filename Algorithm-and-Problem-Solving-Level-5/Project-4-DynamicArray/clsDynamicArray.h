@@ -175,9 +175,14 @@ public:
 		return true;
 	}
 
-	bool InsertAtBeginning(T NewValue)
+	void InsertAtBeginning(T NewValue)
 	{
-		return InsertAt(0, NewValue);
+		InsertAt(0, NewValue);
+	}
+
+	void InsertAtEnd(T NewValue)
+	{
+		InsertAt(_Size, NewValue);
 	}
 
 	void PrintList()
