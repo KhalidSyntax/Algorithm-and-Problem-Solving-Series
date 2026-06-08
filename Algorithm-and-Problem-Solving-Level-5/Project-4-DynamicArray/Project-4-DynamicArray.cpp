@@ -17,15 +17,7 @@ int main()
     MyDynamicArray.PrintList();
     cout << "Size: " << MyDynamicArray.Size() << endl;
 
-    MyDynamicArray.Resize(2);
-    cout << "\nArray Items After Resize to 2:\n";
-    MyDynamicArray.PrintList();
-    cout << "Size: " << MyDynamicArray.Size() << endl;
-
-    MyDynamicArray.Resize(10);
-    cout << "\nArray Items After Resize to 10:\n";
-    MyDynamicArray.PrintList();
-    cout << "Size: " << MyDynamicArray.Size() << endl;
+    cout << "\nItem (2): " << MyDynamicArray.GetItem(2) << endl;
 
     system("pause");
     return 0;

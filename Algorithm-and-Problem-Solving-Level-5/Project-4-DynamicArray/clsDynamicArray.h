@@ -48,8 +48,15 @@ public:
 
 	void Resize(int NewSize)
 	{
+		if (NewSize < 0)
+			NewSize = 0;
+
 		_TempArray = new T[NewSize];
-		for (int i = 0; i < NewSize; i++)
+
+		if (NewSize < _Size)
+			_Size = NewSize;
+
+		for (int i = 0; i < _Size; i++)
 		{
 			_TempArray[i] = _OriginalArray[i];
 		}
@@ -59,8 +66,19 @@ public:
 		_OriginalArray = _TempArray;
 	}
 
+	T GetItem(int Index)
+	{
+		return _OriginalArray[Index];
+	}
+
 	void PrintList()
 	{
+		if (_Size == 0)
+		{
+			cout << "The Array Items Is Empty. " << endl;
+			return;
+		}
+
 		for (int i = 0; i < _Size; i++)
 		{
 			cout << _OriginalArray[i] << " ";
