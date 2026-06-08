@@ -137,6 +137,17 @@ public:
 		return -1;
 	}
 
+	bool DeleteItem(T Value)
+	{
+		int Index = Find(Value);
+		
+		if (Index == -1)
+			return false;
+		
+		DeleteItemAt(Index);
+		return true;
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)
