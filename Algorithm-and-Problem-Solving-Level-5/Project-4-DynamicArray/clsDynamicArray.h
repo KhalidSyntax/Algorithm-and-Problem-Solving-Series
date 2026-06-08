@@ -71,6 +71,19 @@ public:
 		return _OriginalArray[Index];
 	}
 
+	void Reverse()
+	{
+		_TempArray = new T[_Size];
+
+		for (int i = 0; i < _Size; i++)
+		{
+			_TempArray[i] = _OriginalArray[(_Size-1) - i];
+		}
+
+		delete[] _OriginalArray;
+		_OriginalArray = _TempArray;
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)
@@ -79,10 +92,11 @@ public:
 			return;
 		}
 
+		cout << "[ ";
 		for (int i = 0; i < _Size; i++)
 		{
 			cout << _OriginalArray[i] << " ";
 		}
-		cout << "\n\n";
+		cout << "]\n\n";
 	}
 };
