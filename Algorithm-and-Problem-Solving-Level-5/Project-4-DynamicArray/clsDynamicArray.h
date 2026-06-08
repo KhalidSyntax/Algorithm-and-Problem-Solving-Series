@@ -117,6 +117,11 @@ public:
 		return true;
 	}
 
+	void DeleteFirstItem()
+	{
+		DeleteItemAt(0);
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)
