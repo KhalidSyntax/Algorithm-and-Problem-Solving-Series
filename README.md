@@ -1,4 +1,4 @@
-# 🧮 Algorithm and Problem Solving – Level 1, 2, 3 & 4
+# 🧮 Algorithm and Problem Solving – Level 1, 2, 3, 4 & 5
 
 This repository contains beginner-to-advanced problem-solving tasks using **C++**.
 It is part of a structured learning path focused on:
@@ -169,6 +169,50 @@ Each `.cpp` file is focused on one problem and named accordingly, such as:
   * Reusability
   * Clean modular structure
   * Enumerations & structs
+
+---
+
+## 📒 Level 5 – Data Structures & OOP Design
+
+### 🔍 Summary
+
+* Introduces custom data structures implementation using C++.
+* Focuses on object-oriented design, reusable code, inheritance, and dynamic memory management.
+* Moves from solving standalone problems to building reusable data structure libraries.
+
+### 🛠 Topics Covered
+
+* Doubly Linked List
+* Queue using Doubly Linked List
+* Stack using Queue Inheritance
+* Dynamic Array
+* Queue using Dynamic Array
+* Stack using Dynamic Array
+* Redo & Undo Simulation
+* Queue Line Simulation
+
+### 🧩 Concepts Practiced
+
+* Templates
+* Dynamic Memory Allocation
+* Composition
+* Inheritance
+* Encapsulation
+* Custom Data Structures
+* Reusable Class Design
+
+### 📁 Structure
+
+Projects are organized into separate implementations:
+
+* `Project-1-DoublyLinkedList`
+* `Project-2-Queue`
+* `Project-3-Stack`
+* `Project-4-DynamicArray`
+* `Project-5-QueueUsingDynamicArray`
+* `Project-6-StackUsingDynamicArray`
+* `Project-7-RedoAndUndo`
+* `Project-8-QueueLine`
 
 ---
 
