@@ -127,6 +127,16 @@ public:
 		DeleteItemAt(_Size - 1);
 	}
 
+	int Find(T Value)
+	{
+		for (int i = 0; i < _Size; i++)
+		{
+			if (Value == _OriginalArray[i])
+				return i;
+		}
+		return -1;
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)

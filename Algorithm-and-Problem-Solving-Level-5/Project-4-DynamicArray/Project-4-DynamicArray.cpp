@@ -17,10 +17,11 @@ int main()
     MyDynamicArray.PrintList();
     cout << "Size: " << MyDynamicArray.Size() << endl;
 
-    MyDynamicArray.DeleteLastItem();
-    cout << "\nArray Items After Deleting Last Item:\n";
-    MyDynamicArray.PrintList();
-    cout << "Size: " << MyDynamicArray.Size() << "\n\n";
+    int Index = MyDynamicArray.Find(30);
+    if (Index != -1)
+        cout << "\n30 Is Found At Index: " << Index << endl;
+    else
+        cout << "\nItem Was Not Found! " << Index << endl;
 
     system("pause");
     return 0;
