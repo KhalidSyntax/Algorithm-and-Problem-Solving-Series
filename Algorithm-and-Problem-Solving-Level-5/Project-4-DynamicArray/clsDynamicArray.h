@@ -148,6 +148,33 @@ public:
 		return true;
 	}
 
+	bool InsertAt(int Index, T Value)
+	{
+		if (Index > _Size || Index < 0)
+			return false;
+
+		int NewSize = _Size + 1;
+
+		_TempArray = new T[NewSize];
+
+		for (int i = 0; i < Index; i++)
+		{
+			_TempArray[i] = _OriginalArray[i];
+		}
+
+		_TempArray[Index] = Value;
+
+		for (int i = Index; i < _Size; i++)
+		{
+			_TempArray[i + 1] = _OriginalArray[i];
+		}
+
+		delete[] _OriginalArray;
+		_OriginalArray = _TempArray;
+		_Size = NewSize;
+		return true;
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)

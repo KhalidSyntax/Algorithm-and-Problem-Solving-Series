@@ -17,8 +17,8 @@ int main()
     MyDynamicArray.PrintList();
     cout << "Size: " << MyDynamicArray.Size() << endl;
 
-    MyDynamicArray.DeleteItem(30);
-    cout << "\nArray Items After Deleting Value 30:\n";
+    MyDynamicArray.InsertAt(6, 99);
+    cout << "\nArray Items After Inserting 99 At Index 2:\n";
     MyDynamicArray.PrintList();
     cout << "Size: " << MyDynamicArray.Size() << endl;
 
