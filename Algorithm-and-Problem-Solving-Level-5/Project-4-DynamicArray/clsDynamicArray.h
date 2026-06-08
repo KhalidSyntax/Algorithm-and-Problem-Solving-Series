@@ -84,6 +84,14 @@ public:
 		_OriginalArray = _TempArray;
 	}
 
+	void Clear()
+	{
+		_Size = 0;
+		_TempArray = new T[0];
+		delete[] _OriginalArray;
+		_OriginalArray = _TempArray;
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)
