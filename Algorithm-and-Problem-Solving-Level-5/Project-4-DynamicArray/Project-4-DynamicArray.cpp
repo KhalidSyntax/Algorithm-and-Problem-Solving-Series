@@ -17,9 +17,10 @@ int main()
     MyDynamicArray.PrintList();
     cout << "Size: " << MyDynamicArray.Size() << endl;
 
-    MyDynamicArray.Clear();
-    cout << "\nArray Items After Clear:\n";
+    MyDynamicArray.DeleteItemAt(2);
+    cout << "\nArray Items After Deleting Item (2):\n";
     MyDynamicArray.PrintList();
+    cout << "Size: " << MyDynamicArray.Size() << "\n\n";
 
     system("pause");
     return 0;
