@@ -185,6 +185,15 @@ public:
 		InsertAt(_Size, NewValue);
 	}
 
+	bool InsertAfter(int Index, T NewValue)
+	{
+		if (Index >= _Size)
+			return InsertAt(Index - 1, NewValue);
+		else
+			return InsertAt(Index + 1, NewValue);
+
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)
