@@ -187,11 +187,18 @@ public:
 
 	bool InsertAfter(int Index, T NewValue)
 	{
-		if (Index >= _Size)
-			return InsertAt(Index - 1, NewValue);
-		else
-			return InsertAt(Index + 1, NewValue);
+		if (Index < 0 || Index >= _Size)
+			return false;
 
+		return InsertAt(Index + 1, NewValue);
+	}
+
+	bool InsertBefore(int Index, T NewValue)
+	{
+		if (Index < 0 || Index >= _Size)
+			return false;
+
+		return InsertAt(Index, NewValue);
 	}
 
 	void PrintList()
