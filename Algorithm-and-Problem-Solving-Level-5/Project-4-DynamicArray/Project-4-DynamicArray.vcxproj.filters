@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\DS">
+      <UniqueIdentifier>{fc636c6a-b9f9-4e07-bd28-f3dfb76bd090}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Project-4-DynamicArray.cpp">
@@ -21,7 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clsDynamicArray.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\DS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

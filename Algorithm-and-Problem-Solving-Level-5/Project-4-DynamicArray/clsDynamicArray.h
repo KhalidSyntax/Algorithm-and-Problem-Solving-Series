@@ -9,6 +9,7 @@ class clsDynamicArray
 private:
 	int _Size = 0;
 	T* _OriginalArray;
+	T* _TempArray;
 
 public:
 
@@ -43,6 +44,19 @@ public:
 	bool IsEmpty()
 	{
 		return _Size == 0;
+	}
+
+	void Resize(int NewSize)
+	{
+		_TempArray = new T[NewSize];
+		for (int i = 0; i < NewSize; i++)
+		{
+			_TempArray[i] = _OriginalArray[i];
+		}
+
+		_Size = NewSize;
+		delete[] _OriginalArray;
+		_OriginalArray = _TempArray;
 	}
 
 	void PrintList()

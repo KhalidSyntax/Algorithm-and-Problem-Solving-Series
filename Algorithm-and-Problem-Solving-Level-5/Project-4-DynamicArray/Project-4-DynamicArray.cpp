@@ -13,11 +13,19 @@ int main()
     MyDynamicArray.SetItem(3, 40);
     MyDynamicArray.SetItem(4, 50);
 
-    cout << "\nIs Empty: " << MyDynamicArray.IsEmpty() << endl;
-    cout << "\nSize: " << MyDynamicArray.Size() << endl;
-
     cout << "\nArray Items:\n";
     MyDynamicArray.PrintList();
+    cout << "Size: " << MyDynamicArray.Size() << endl;
+
+    MyDynamicArray.Resize(2);
+    cout << "\nArray Items After Resize to 2:\n";
+    MyDynamicArray.PrintList();
+    cout << "Size: " << MyDynamicArray.Size() << endl;
+
+    MyDynamicArray.Resize(10);
+    cout << "\nArray Items After Resize to 10:\n";
+    MyDynamicArray.PrintList();
+    cout << "Size: " << MyDynamicArray.Size() << endl;
 
     system("pause");
     return 0;
