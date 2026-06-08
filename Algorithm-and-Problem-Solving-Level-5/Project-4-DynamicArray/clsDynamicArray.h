@@ -122,6 +122,11 @@ public:
 		DeleteItemAt(0);
 	}
 
+	void DeleteLastItem()
+	{
+		DeleteItemAt(_Size - 1);
+	}
+
 	void PrintList()
 	{
 		if (_Size == 0)
